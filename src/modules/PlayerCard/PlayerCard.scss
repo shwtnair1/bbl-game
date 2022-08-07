@@ -1,0 +1,25 @@
+@import '../../styles/_mixins';
+
+.player-card {
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    margin:10px;
+    border: 1px solid black;
+    @include textPos;
+}
+
+.player-card__score{
+    @include textPos($pos: left);
+    margin:10px;
+}
+
+.player-card__avatar{
+    width:231px;
+    height:231px;
+    margin:20px; 
+}
+
+.player-card__button{
+    margin:10px;
+}

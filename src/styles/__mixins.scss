@@ -1,0 +1,3 @@
+@mixin textPos($pos: center) {
+    text-align: $pos;
+  }

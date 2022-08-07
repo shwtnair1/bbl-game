@@ -1,0 +1,13 @@
+@import '../../styles/_mixins';
+
+.game-card {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.winner-msg,
+.max-score{
+    @include textPos;
+  }
